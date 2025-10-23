@@ -1,0 +1,17 @@
+[33mcommit 714c759947563a4970bd8b4b2a66e6ec990b0d72[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: JesusCoe <146779573+JesusCoe@users.noreply.github.com>
+Date:   Tue Oct 21 00:00:13 2025 -0600
+
+    Added main elements to index.html and a lil of style in style.css
+
+[33mcommit e93a0c7b9ef7718e9deb512c7afdd1ee2adb854a[m
+Author: JesusCoe <146779573+JesusCoe@users.noreply.github.com>
+Date:   Sun Oct 19 15:34:32 2025 -0600
+
+    index.htm and style.css added
+
+[33mcommit 85690648ea7a83b1a6b6ff0cf45e27ef9dd598cf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Tostiloc0s <146779573+JesusCoe@users.noreply.github.com>
+Date:   Sun Oct 19 15:19:59 2025 -0600
+
+    Initial commit
