@@ -5,18 +5,17 @@ body{
     margin: 0;
 }
 
+/* THIS IS FOR THE HEADER */
+
 .header{
-    background: #1f2937;
+    align-items: center;
+    background: #0f172a;
     color: #f9faf8;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 128px;
-}
-
-.hero{
-    background: #1f2937;
-    padding: 16px 40px;
+    padding: 16px 10%;
+    padding-bottom: 60px;
 }
 
 .h-image{
@@ -35,48 +34,159 @@ body{
     color: white;
 }
 
+.lheader-stuff{
+    display: flex;
+    gap: 16px;
+}
+
+/* HEADER ENDS HERE */
+
+/* THIS IS FOR MAIN STUFF */
+
+.main-stuff{
+    background: #0f172a;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 16px 10%;;
+    padding-bottom: 60px;
+}
+
+.main-header{
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.main-text{
+    font-size: 20px;
+}
+
+.left-main{
+   display: flex; 
+   flex-direction: column;
+   color: #f9faf8;
+   
+}
+
+.small-sign-up{
+    align-self: flex-start;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color:#f9faf8;
+    display: flex;
+    font-size: 18px;
+    padding: 8px 30px;
+}
+
+.image-banner{
+    border: solid #ffb814;
+    border-radius: 15px;
+    display: flex;
+    height: auto;
+    max-width: 45%;
+    padding: 5px;
+}
+
+/* MAIN STUFF ENDS HERE */
+
+/* THIS IS FOR IMAGES SECTION */
+
+.places-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.places-header{
+    text-align: center;
+    margin:  48px;
+    border-bottom: solid #5d79ae;
+}
+
+.card-grid{
+    align-items: flex-start;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin: 0 48px 120px 0;
+    width: auto;
+}
+
+.card{
+    width: 200px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+}
+
+.img-placeholder{
+    border: solid #ffb814;
+    border-width: 3px;
+    border-radius: 15px;
+    display: flex;
+    height: 250px;
+    max-width: 250px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+/* IMAGES SECTION ENDS HERE */
+
+/* ONLY 4 QUOTE SECTION */
+
+.quote-container{
+    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 10%;
+}
+
+#quote-text{
+    color: #0c0f12;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.quote-author{
+    color: black   ;
+    font-size: 20px;
+    text-align: end;
+}
+
+/* QUOTE SECTION ENDS HERE */
+
+/* ONLY SUBSCRIBE SECTION */
+
+.subscribe-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 120px 10%;
+}
+
+.subscribe-content{
+    background-color: ;
+}
+
+/* SUBSCRIBE SECTION ENDS HERE */
+
 img{
     flex-shrink: 0;
     object-fit: cover;
 }
 
-.lheader-stuff{
-    display: flex;
-    gap: 12px;
-}
-
-.lmain-stuff{
-   display: flex; 
-   flex-direction: column;
-   color: #f9faf8;
-}
-
-.main-stuff{
-    display: flex;
-    gap: 32px;
-    margin-bottom: 64px;
-    justify-content: space-between;
-}
-
-.mt-header{
-    font-size: 48px;
-    margin: 0;
-}
-
-.rmain-image{
-    border-color: #ffb814;
-    border-radius: 15px;
-    border: 5px; 
-    height: 250px;
-    padding: 5px;
-    max-width: 45%;
-    
-}
-
 ul{
     display: flex;
     font-size: 18px;
-    gap: 18px;
+    gap: 30px;
     list-style-type: none;
     padding-left: 0;
 }
